@@ -1,0 +1,41 @@
+body{
+  background-image: url(Halloweenie.jpeg);
+  text-align: center;
+}
+@font-face{
+  font-family:hemogoblin
+  src:url(hemogoblin.ttf)
+}
+h1{
+  font-family:hemogoblin
+}
+h2{
+  font-family:hemogoblin
+}
+h1 span{
+  background-color: #000000
+}
+img {
+   border:5px solid #000000
+}
+div#caption{
+  color: #1D8348
+}
+h2 span{
+  background-color: #000000
+}
+#Movie_Trailers{
+  color: #1D8348
+}
+h2 span{
+  background-color: #000000
+}
+.Table{
+  background-color: #000000
+}
+#hello{
+  color: #1D8348
+}
+h2 span{
+  background-color: #000000
+}

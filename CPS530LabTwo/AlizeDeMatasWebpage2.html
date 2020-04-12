@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Happy Halloween</title>
+<link href = "AlizeDeMatasWebpage2.css" rel = "stylesheet" type = "text/css">
+<script>
+<!--hide
+var Password;
+var Password1 = "12345";
+Password = prompt ('Enter Password to View Page','');
+if(Password == Password1)
+alert('Correct password, click OK to enter.');
+else
+{
+window.location = "http://www.google.com";
+}
+//-->
+</script>
+</head>
+<body>
+  <audio src="MonsterMash.mp3" controls loop="loop" autoplay="autoplay"></audio>
+  <h1 style="color:#1D8348;text-align:center"><span>Welcome to the Halloween Movie Guide Webpage</span></h1>
+  <div style="color:#ffffff;text-align:center"><p>Hello, my name is Alize De Matas!<p></div>
+  <div style="color:#ffffff;text-align:center"><p>My Student Number is: 500745506. And There Is: <p></div>
+
+    <!-- Display the countdown timer in an element -->
+<p id="demo" style="color:#ffffff;text-align:center" ></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("October 31, 2018").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<div style="color:#ffffff;text-align:center"><p>Until Halloween!<p></div>
+
+
+
+
+<div style = "text-align:center;"><img src="MonsterMash.gif" alt="Halloween Spirit" height = "300"></div>
+
+<div style="text-align:center" id = "caption"><h2><span> The Best Movies to Watch in the Month of October</span></h2></div>
+<div style="color:#ffffff;text-align:center">
+<table class="Table"  style="margin: 0 auto;">
+<tr>
+  <th rowspan = "1"> Cartoons and Animations </th>
+  <th rowspan = "1"> Live Actions and Films </th>
+</tr>
+<tr>
+  <td>Coraline</td>
+  <td>Train to Busan</td>
+  </tr>
+  <tr>
+  <td>The Nightmare Before Christmas</td>
+  <td>The Little Vampire</td>
+  <tr>
+  <td>Simpsons Treehouse of Horror</td>
+  <td>The Addams Family</td>
+  </tr>
+  <tr>
+    <td>Alvin and the Chipmunks Halloween Collection</td>
+    <td> The Pet Sematary</td>
+  </tr>
+  <tr>
+    <td> Garfield's Halloween Adventure</td>
+    <td> Shawn of the Dead</td>
+  </tr>
+   </table>
+</div>
+<div style="text-align:center"><h2 id = "Movie_Trailers"><span>Movie Trailers</span></h2></div>
+<div class = "parent-class" style="text-align:center">
+<video class = "videoFrame" width="500" height="330" controls>
+  <source src="Busan.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div style = "text-align:center" id = "hello"><h2><span>Links to my Validation Report and Technical Report: </span></h2></div>.
+<div style = "color:#ffffff;text-align:center">
+  <a href="https://a3a54jmkj20xegddfvqo7g-on.drv.tw/CPS530LabTwo/(X)HTML5%20validation%20results%20for%20AlizeDeMatasWebpage2.html">Click Here For my Validation Report!</a>
+  <a href="https://a3a54jmkj20xegddfvqo7g-on.drv.tw/CPS530LabTwo/TechnicalReportForWebpage2.html">Click Here for my Technical Report!</a></div>
+</body>
