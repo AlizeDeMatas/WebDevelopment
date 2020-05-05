@@ -1,0 +1,50 @@
+body{
+  /*background-image: url(NewImage.png);*/
+  background-color: red
+
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+b.text{
+  padding-left: 40px
+}
+img.img_icon{
+  padding-top: 500px
+
+}
+#b1{
+  margin: 13px
+
+}
+#b2{
+  margin: 13px
+}
+#b3{
+  margin: 13px
+}
+#b4{
+  margin: 13px
+}
+#b5{
+  margin: 13px
+}
+#b6{
+  margin: 13px
+}
+#b7{
+  margin: 13px
+}
+#b8{
+  margin: 5px
+}
